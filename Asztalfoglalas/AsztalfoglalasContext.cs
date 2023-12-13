@@ -22,9 +22,9 @@ namespace Asztalfoglalas
             modelBuilder.Entity<Asztal>().HasData(
                 new Asztal() { ID = 1, Megnevezes = "1-es asztal", Ferohely = 6 },
                 new Asztal() { ID = 2, Megnevezes = "2-es asztal", Ferohely = 2 },
-                new Asztal() { ID = 3, Megnevezes = "3-es asztal", Ferohely = 4 },
+                new Asztal() { ID = 3, Megnevezes = "3-as asztal", Ferohely = 4 },
                 new Asztal() { ID = 4, Megnevezes = "4-es asztal", Ferohely = 8 },
-                new Asztal() { ID = 5, Megnevezes = "5-es asztal", Ferohely = 4 }
+                new Asztal() { ID = 5, Megnevezes = "5-ös asztal", Ferohely = 4 }
             );
 
             modelBuilder.Entity<Foglalas>().HasData(
